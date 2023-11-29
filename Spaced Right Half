@@ -1,0 +1,14 @@
+// Q2. Spaced Right Half Pyramid
+public class Q2_Spaced_Right_Half {
+       if(i == j || j == 0 || i == 4){
+        System.out.print(" ");
+       }
+        for(int i=1; i<=5; i++){
+            for(int j=1; j<=i; j++){
+               System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+
