@@ -1,0 +1,6 @@
+import java.util.*;
+Arrays.sort(arr);
+O(nlogn) is time complexity
+Arrays.sort(arr,si,ei); // Ascending order
+Arrays.sort(arr,Collection.reverseOrder());
+Arrays.sort(arr,si,ei,Collection.reverseOrder());
